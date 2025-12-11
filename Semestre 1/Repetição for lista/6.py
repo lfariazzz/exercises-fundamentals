@@ -1,0 +1,4 @@
+for i in range(0, 5):
+    num1 = float(input())
+    num2 = float(input())
+    print(num1 + num2)

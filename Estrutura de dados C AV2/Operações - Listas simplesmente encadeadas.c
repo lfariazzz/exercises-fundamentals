@@ -47,14 +47,14 @@ Lista *remove_lista(Lista *l1, int dado){
     Lista *ant=NULL;
 
     //primeiro Elemento
-    if(aux!=NULL && aux->dado=dado){
+    if(aux!=NULL && aux->dado==dado){
         l1=aux->prox;
         free(aux)
         return l1;
     }
 
     //meio ou fim
-    while(aux!=NULL && aux!=dado){
+    while(aux!=NULL && aux->!=dado){
         ant = aux;
         aux=aux->prox;
     }
